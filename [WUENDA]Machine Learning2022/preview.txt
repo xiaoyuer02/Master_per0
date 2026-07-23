@@ -1,0 +1,8 @@
+在Vscode里面预览.md文件快捷键
+直接预览：ctrl+shift+V
+分屏预览[左侧编辑区+右侧预览区]：ctrl+K 再按V
+
+md语法设置字体颜色
+<span style="color: red;">红色文字</span>
+md数学表达式latex
+$\hat{}$表示矢量标
