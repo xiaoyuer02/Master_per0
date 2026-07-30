@@ -10,7 +10,7 @@ from d2l import torch as d2l
 
 d2l.use_svg_display()
 
-# 通过ToTensor是咧将图像数据从PIL类型变换为32点浮点数
+# 通过ToTensor()将图像数据从PIL类型变换为32点浮点数
 # 并除以255使得所有像素数值从0到1
 trans = transforms.ToTensor()
 mnist_train = torchvision.datasets.FashionMNIST(root = '../data', train = True, 
